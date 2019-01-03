@@ -1,0 +1,17 @@
+Uses opencv to create hotkeys to different directories for faster dataset organization.
+
+Required directory structure:
+    top directory
+        subdir 1
+            images
+        subdir 2
+            images
+        subdir n
+            images
+
+Controls:
+    3 and 4/space to cycle backward and forward through the image pool, respectively
+    ` for exiting
+
+Set your hotkeys in the key_mappings json file
+    * restart to use hotkeys added while the script is running
